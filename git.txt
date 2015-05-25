@@ -1,0 +1,26 @@
+### Git Config ###
+git config --global color.ui.true
+
+### Git Log ###
+git log
+git log --pretty=online
+git log --pretty=format: "%h %ad- %s [%an]"
+
+%ad - author date
+%an - author name
+%h - SHA hash
+%s - subject
+%d ref names
+
+git log --onelone -p (shows a pacht format, which line was changed during the commit)
+git log --stat (shows status os how many lines had been added/removed)
+git log --onleline --graph
+
+git log --until=1.minute.ago
+git log --since=1.day.ago
+git log --since 1.hour.ago
+git log --since1.month.ago --until-2.weeks.ago
+git log --since=2000-01-01 --until-2012-12-12
+
+### Git Diff ###
+TBD
