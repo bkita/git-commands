@@ -50,6 +50,10 @@ git config --global user.email "bkita@gmail.com"
 git config --global core.editor emacs
 git config --global merge.tool opendiff
 
+### Aliases ###
+git config --global alias.mylog \
+"log --pretty=format: '%h %s [%an]' --graph"
+
 
 
 
