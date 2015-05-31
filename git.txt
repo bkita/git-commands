@@ -44,4 +44,13 @@ git blame index.html --date short (shows: sha, author, date, line, content)
 // file will be deleted from tracking but not from file system
 2. add file to .gitignore (logs/*.log)
 
+### Config ###
+git config --global user.name "Bartosz Kita"
+git config --global user.email "bkita@gmail.com"
+git config --global core.editor emacs
+git config --global merge.tool opendiff
+
+
+
+
 
