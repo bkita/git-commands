@@ -1,5 +1,8 @@
-### Git Config ###
-git config --global color.ui.true
+### Tags ###
+git tag (list all tags)
+git checkout v0.0.1 checkout tag number: v0.0.1
+git tag -a v0.0.3 -m "version 0.0.3" (add new tag)
+git push --tag
 
 ### Git Log ###
 git log
@@ -49,10 +52,19 @@ git config --global user.name "Bartosz Kita"
 git config --global user.email "bkita@gmail.com"
 git config --global core.editor emacs
 git config --global merge.tool opendiff
+git config --global color.ui.true
 
 ### Aliases ###
-git config --global alias.mylog \
+git config --global alias.blog \
 "log --pretty=format: '%h %s [%an]' --graph"
+
+git config --global alias.lol \
+"log --graph --decorate --pretty=oneline --abbrev-commit --all"
+
+git config --global alias.st git st
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.cm commit
 
 
 
