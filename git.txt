@@ -35,3 +35,8 @@ git diff master bird (diff between two branches)
 git diff --since=1.week.ago --until=1.minute.ago
 git blame index.html --date short (shows: sha, author, date, line, content)
 
+### Excluding Files ###
+
+.git/info/exclude - will exclude file/folder from git (can use fileName.mp4 or *.mp4)
+.gitignore
+
