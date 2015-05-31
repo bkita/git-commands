@@ -23,4 +23,15 @@ git log --since1.month.ago --until-2.weeks.ago
 git log --since=2000-01-01 --until-2012-12-12
 
 ### Git Diff ###
-TBD
+git diff (shows what has changed between last two commits)
+same as git HEAD
+
+git diff^ (parent of latest commit)
+git diff^^ (grandparent of latest commit)
+git diff HEAD~5 (five commits ago)
+git diff HEAD^..HEAD (2nd most recent commit vs. most recent commit)
+git diff 12345..43215
+git diff master bird (diff between two branches)
+git diff --since=1.week.ago --until=1.minute.ago
+git blame index.html --date short (shows: sha, author, date, line, content)
+
